@@ -1,0 +1,24 @@
+{
+  "name": "reddit-cli",
+  "version": "1.0.0",
+  "description": "A command line interface to open random post in browser from reddit",
+  "main": "reddit.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reddit": "./reddit.mjs"
+  },
+  "keywords": [
+    "reddit",
+    "cli",
+    "nodejs"
+  ],
+  "author": "Rathesh Prabakar",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.0",
+    "open": "^8.4.0",
+    "yargs": "^17.3.1"
+  }
+}
